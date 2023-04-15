@@ -1,0 +1,78 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #edd8d8;
+}
+section{
+    padding: 2rem 7%;
+}
+.optionList h2{
+    color: #eee;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0 10px;
+}
+header{
+    display: flex;
+    background: linear-gradient(195deg, #e76,#edbaba);
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 10px;
+}
+
+.optionList{
+    display: flex;
+    list-style: none;
+    padding: 30px;
+}
+.texto{
+    margin: 20px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+}
+.imagenes h2{
+    color: #555;
+}
+.imagenes h3{
+    color: #e85;
+}
+li a{
+    margin: 0 20px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+li a:hover{
+    color: #fff;
+    transition: 250ms;
+}
+img{
+    width: 400px;
+    
+}
+.imagenes{
+    width: 400px;
+    height: 500px;
+    display: flex;
+}
+.imagenes img{
+    object-fit: cover;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.img1, .img2, .img3{
+    box-sizing: border-box;
+    box-shadow: 0px 0px 12px 0 #888;
+    background: #e8dedd;
+    margin: 10px;
+    padding: 20px;
+    width: fit-content;
+    
+}
+.img1 p, .img2 p, .img3 p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight:bold ;
+}
